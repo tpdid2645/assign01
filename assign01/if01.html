@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>exam</title>
+  <link rel="stylesheet" href="common.css" />
+  <!-- link js -->
+  <script src="./if01.js"></script>
+</head>
+<body>
+  <!-- wrapper [s] -->
+  <div id="wrapper">
+    <!-- header [s] -->
+    <div id="header">
+    </div>
+    <!-- header [e] -->
+    <hr />
+    <!-- container [s] -->
+    <div id="container">
+      <div class="exam_wrap">
+        <h1>Q. 처음부터 순서대로 일치하게 하시오.</h1>
+        <div class="exam_q exam_q1"><!-- 부모 -->
+          <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+            <li>five</li>
+            <li>six</li>
+            <li>seven</li>
+            <li>eight</li>
+          </ul>
+        </div>
+        <button class="plus-btn" type="button">plus</button>
+      </div>
+      <div class="exam_wrap">
+        <h1>Q. 마지막부터 역순대로 일치하게 하시오.</h1>
+        <div class="exam_q exam_q2"><!-- 부모 -->
+          <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+            <li>five</li>
+            <li>six</li>
+            <li>seven</li>
+          </ul>
+        </div>
+        <button class="minus-btn" type="button">minus</button>
+      </div>
+      <div class="exam_wrap">
+        <h1>Q. 순서대로 일치하게 하시고, 바로 전에 일치됐던 엘리먼트는 색을 지우시오.</h1>
+        <div class="exam_q exam_q3"><!-- 부모 -->
+          <ul>
+            <li style="background-color:yellow">one</li>
+            <li>two</li>
+            <li>four</li>
+            <li>three</li>
+            <li>five</li>
+            <li>six</li>
+            <li>seven</li>
+            <li>eight</li>
+            <li>nine</li>
+          </ul>
+        </div>
+        <button type="button" class="btn_plus btn_plus3">plus</button>
+        <button type="button" class="btn_minus btn_minus3">minus</button>
+      </div>
+      <div class="exam_wrap">
+        <h1>Q. 순서대로 일치하게 하시고, 바로 전에 일치됐던 엘리먼트는 색을 지우시오.(클래스 제어)</h1>
+        <div class="exam_q exam_q4"><!-- 부모 -->
+          <ul>
+            <li class="active">one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+            <li>five</li>
+            <li>six</li>
+            <li>seven</li>
+            <li>eight</li>
+            <li>nine</li>
+          </ul>
+        </div>
+        <button type="button" class="btn_plus btn_plus4">plus</button>
+        <button type="button" class="btn_minus btn_minus4">minus</button>
+      </div>
+    </div>
+    <!-- container [e] -->
+    <hr />
+    <!-- footer [s] -->
+    <div id="footer">
+    </div>
+    <!-- footer [e] -->
+  </div>
+  <!-- wrapper [e] -->
+</body>
+
+</html>
